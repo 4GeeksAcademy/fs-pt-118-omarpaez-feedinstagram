@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
 
   <title>Instagram Photo Feed</title>
 </head>
@@ -57,20 +58,20 @@
   <div class="container-fluid">
     <ul class="nav nav-tabs justify-content-center border-bottom-0" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
-        <button class="nav-link active border-0" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-          type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><span
-            class="fa-solid fa-table-cells"></span></button>
+        <button class="nav-link active border-0 text-secondary" id="home-tab" data-bs-toggle="tab"
+          data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+          aria-selected="true"><span class="fa-solid fa-table-cells"></span></button>
 
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link border-0" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-          type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><span
-            class="fa-solid fa-square"></span></button>
+        <button class="nav-link border-0 text-secondary" id="profile-tab" data-bs-toggle="tab"
+          data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+          aria-selected="false"><span class="fa-solid fa-square"></span></button>
       </li>
 
     </ul>
   </div>
-  <div class="tab-content" id="myTabContent">
+  <div class="tab-content ms-2 me-2 mt-2" id="myTabContent">
     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
       <div class="container-fluid text-center">
         <div class="row justify-content-center ">
@@ -111,13 +112,14 @@
           <div class="col-12  d-flex justify-content-center mt-3">
 
             <div class="card rounded-1" style="width: 36rem;">
-              <div class="card-header bg-white d-flex p-1 justify-content-between">
+              <div class="card-header bg-white d-flex p-1 justify-content-between align-items-center">
                 <h5>Una Imagen para recordar!!</h5>
                 <p>9/12</p>
               </div>
               <div class="card-body p-0 mb-3">
-                <img src="https://picsum.photos/id/10/2500/1667" class="card-img-top img-fluid rounded-0" alt="...">
-                <strong class="mt-4 ms-2">250 Likes</strong>
+                <img src="https://picsum.photos/id/10/2500/1667" class="card-img-top img-fluid rounded-0 mb-1"
+                  alt="...">
+                <strong class="mt-5 ms-2">250 Likes</strong>
                 <p class="card-text ms-2">Esta es una foto de un excelente paisaje, tipo postal.</p>
 
               </div>
@@ -126,14 +128,16 @@
           <div class="col-12  d-flex justify-content-center mt-3">
 
             <div class="card rounded-1" style="width: 36rem;">
-              <div class="card-header bg-white d-flex p-1 justify-content-between">
-                <h5>Una Imagen para recordar!!</h5>
-                <p>9/12</p>
+              <div class="card-header bg-white d-flex p-1 justify-content-between align-items-center">
+                <h5>Accesorios segun tu estilo!!</h5>
+                <p>8/20</p>
               </div>
               <div class="card-body p-0 mb-3">
-                <img src="https://picsum.photos/id/10/2500/1667" class="card-img-top img-fluid rounded-0" alt="...">
-                <strong class="mt-4 ms-2">250 Likes</strong>
-                <p class="card-text ms-2">Esta es una foto de un excelente paisaje, tipo postal.</p>
+                <img src="https://picsum.photos/id/26/4209/2769" class="card-img-top img-fluid rounded-0 mb-1"
+                  alt="...">
+                <strong class="mt-4 ms-2">1200 Likes</strong>
+                <p class="card-text ms-2">Para cada estilo, puedes disponer de diferentes accesorios. Cual es el tuyo?
+                </p>
 
               </div>
             </div>
@@ -141,14 +145,15 @@
           <div class="col-12  d-flex justify-content-center mt-3">
 
             <div class="card rounded-1" style="width: 36rem;">
-              <div class="card-header bg-white d-flex p-1 justify-content-between">
-                <h5>Una Imagen para recordar!!</h5>
-                <p>9/12</p>
+              <div class="card-header bg-white d-flex p-1 justify-content-between align-items-center">
+                <h5>Asi sera mi proximo verano!!</h5>
+                <p>1/5</p>
               </div>
               <div class="card-body p-0 mb-3">
-                <img src="https://picsum.photos/id/10/2500/1667" class="card-img-top img-fluid rounded-0" alt="...">
-                <strong class="mt-4 ms-2">250 Likes</strong>
-                <p class="card-text ms-2">Esta es una foto de un excelente paisaje, tipo postal.</p>
+                <img src="https://picsum.photos/id/27/3264/1836" class="card-img-top img-fluid rounded-0 mb-1"
+                  alt="...">
+                <strong class="mt-4 ms-2">650 Likes</strong>
+                <p class="card-text ms-2">Fotos para recordar lo maravilloso del verano!!!</p>
 
               </div>
             </div>
